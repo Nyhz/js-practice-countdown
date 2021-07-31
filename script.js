@@ -24,13 +24,13 @@ function countdown() {
 
 }
 
+// Function to add a '0' in front of single digit numbers.
 function formatTime(time) {
     if (time < 10) {
         return (`0${time}`)
     } else {
         return time
     }
-    // return time < 10 ? (`0${time}`) : time;
 }
 
 countdown();
