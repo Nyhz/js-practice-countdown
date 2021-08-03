@@ -11,7 +11,7 @@ Small JS app to get 'days', 'hours', 'minutes' and 'seconds' remaining to a cert
 ## Help
 
 * If you want to change the target date, you have to modify the following line in the script.js file:
-* 
+
 `
 const countdownTarget = '1 Jan 2022';
 `
